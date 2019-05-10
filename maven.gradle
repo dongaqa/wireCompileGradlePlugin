@@ -1,0 +1,12 @@
+
+//发布在本地，../plugin 文件夹
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            pom.groupId = project.ext.pomGroupId
+            pom.artifactId = project.ext.pomArtifactId
+            pom.version = project.ext.pomVersion
+            repository(url: uri('D:\\maven'))
+        }
+    }
+}

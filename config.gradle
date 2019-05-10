@@ -1,0 +1,6 @@
+ext {
+    //使用： classpath 'com.dong.wire-compiler:wire-compiler:1.0.0'
+    pomGroupId = "com.dong.wire-compiler"
+    pomVersion = "1.0.0"
+    pomArtifactId = "wire-compiler-plugin"
+}
