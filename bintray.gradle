@@ -76,7 +76,7 @@ install {
         pom {
             project {
                 packaging 'jar'
-                name 'The Android Plugin for Totcy.'
+                name 'wire-compile'
                 url siteUrl
 
                 licenses {
@@ -87,9 +87,9 @@ install {
                 }
                 developers {
                     developer {
-                        id 'bintray用户名账户'
-                        name '用户名'
-                        email '邮箱'
+                        id 'donggii'
+                        name 'donggii'
+                        email 'dongaqa@gmail.com'
                     }
                 }
 
